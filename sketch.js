@@ -21,7 +21,7 @@ let myFont;
 function preload() {
 	table = loadTable("museums.csv", "csv", "header");
 	rows = table.getRows();
-	myFont = NORMAL
+	myFont = loadFont('Butler_Regular.otf');
 }
 
 function setup() {
